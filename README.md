@@ -77,7 +77,7 @@ Enter month number:
 1
 Enter day of month (1-30):
 5
-✔ Recorded: 200 km on Day 5 of January.
+Recorded: 200 km on Day 5 of January.
 
 > 3
 Select month for statistics:
