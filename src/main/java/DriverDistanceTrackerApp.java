@@ -12,7 +12,7 @@ public class DriverDistanceTrackerApp {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        DistanceTracker tracker = new DistanceTracker();
+        DistanceTracker tracker = new DistanceTracker(scanner);
 
         System.out.println("Welcome to Driver Distance Tracker!");
         System.out.println("Please enter your initial daily mileage target (km):");

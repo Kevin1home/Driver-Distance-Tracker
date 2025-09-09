@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Handles user interactions for recording mileage and managing targets.
  */
 public class DistanceTracker {
-    private final Scanner scanner = new Scanner(System.in);
+    private final Scanner scanner;
     private final MonthData monthData = new MonthData();
     private int dailyTargetKm = 100;
 
@@ -14,6 +14,10 @@ public class DistanceTracker {
             "January", "February", "March", "April", "May", "June",
             "July", "August", "September", "October", "November", "December"
     };
+
+    public DistanceTracker(Scanner scanner) {
+        this.scanner = scanner;
+    }
 
     /**
      * Records mileage for a specific day and month.
